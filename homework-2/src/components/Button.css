@@ -1,0 +1,20 @@
+.btn {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+    background: #0048ba;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0040a7;
+}
+
+.btn.delete {
+    background: #e32636;
+}
+
+.btn.delete:hover {
+    background: #cc2230;
+}
