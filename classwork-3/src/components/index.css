@@ -1,0 +1,55 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.controls input {
+  padding: 8px 10px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #1f1f1f;
+  color: #ececec;
+  min-width: 260px;
+  outline: none;
+}
+
+.controls button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #24a0ed;
+  color: white;
+  font-weight: 600;
+}
+
+.controls button:hover {
+  background: #237fb7;
+}
+
+.list {
+  list-style: none;
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.item {
+  padding: 10px 12px;
+  background: #303030;
+  color: #eaeaea;
+  border-radius: 8px;
+  border: 1px solid #3b3b3b;
+  word-break: break-word;
+}
