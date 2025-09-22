@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  width: 260px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 6px;
+}
+
+button {
+  height: 40px;
+  padding: 0 12px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+li input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+li span {
+  min-width: 160px;
+  text-align: left;
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-top: 8px;
+  color: #666;
+}
